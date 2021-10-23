@@ -64,5 +64,6 @@ public class WeatherStarter {
             ex.printStackTrace();
         }
 
+        System.exit(0);
     }
 }
