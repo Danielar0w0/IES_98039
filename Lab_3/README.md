@@ -84,13 +84,13 @@ $ docker run --name mysql5 -e MYSQL_ROOT_PASSWORD=secret1 -e MYSQL_DATABASE=demo
 
 We need to define the database connection properties with the application.properties resource file:
 
-# MySQL
+MySQL:
 spring.datasource.url=jdbc:mysql://127.0.0.1:33060/demo
 spring.datasource.username=demo
 spring.datasource.password=secret2
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 
-# Strategy to auto update the schemas (create, create-drop, validate, update)
+Strategy to auto update the schemas (create, create-drop, validate, update):
 spring.jpa.hibernate.ddl-auto = update
 
 ---
@@ -192,6 +192,8 @@ docker run -p 8080:8080 -t myorg/myapp
 
 Note: Add to <java.version>11</java.version> to <java.version>8</java.version>
 
+  
+  
 --- REVIEW QUESTIONS
 
 A. Explain the differences between the RestController and Controller components used in different parts of this lab.
