@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pt.ua.deti.ies.lab3.ex3.MovieQuotes.repository.MovieRepository</OriginalElement>
+  <nodes>
+    <node x="0.0" y="245.0">org.springframework.data.repository.query.QueryByExampleExecutor</node>
+    <node x="269.0" y="245.0">org.springframework.data.repository.PagingAndSortingRepository</node>
+    <node x="220.42857142857144" y="81.0">org.springframework.data.repository.Repository</node>
+    <node x="254.42857142857144" y="0.0">org.springframework.stereotype.Indexed</node>
+    <node x="255.92857142857144" y="162.0">org.springframework.data.repository.CrudRepository</node>
+    <node x="316.67857142857144" y="328.0">org.springframework.data.jpa.repository.JpaRepository</node>
+    <node x="332.17857142857144" y="409.0">pt.ua.deti.ies.lab3.ex3.MovieQuotes.repository.MovieRepository</node>
+    <node x="421.6190476190476" y="81.0">org.springframework.data.repository.NoRepositoryBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.PagingAndSortingRepository" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="414.17857142857144" y="302.0" />
+      <point x="416.0" y="302.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.NoRepositoryBean" relationship="ANNOTATION">
+      <point x="65.0" y="-15.5" />
+      <point x="479.17857142857144" y="302.0" />
+      <point x="573.5" y="302.0" />
+      <point x="573.5" y="137.0" />
+      <point x="509.6190476190476" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.query.QueryByExampleExecutor" relationship="INTERFACE_GENERALIZATION">
+      <point x="-65.0" y="-15.5" />
+      <point x="349.17857142857144" y="302.0" />
+      <point x="124.5" y="302.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.CrudRepository" relationship="INTERFACE_GENERALIZATION">
+      <point x="-73.5" y="-15.5" />
+      <point x="342.5" y="219.0" />
+      <point x="357.92857142857144" y="219.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.NoRepositoryBean" relationship="ANNOTATION">
+      <point x="51.0" y="-15.5" />
+      <point x="408.92857142857144" y="137.0" />
+      <point x="509.6190476190476" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pt.ua.deti.ies.lab3.ex3.MovieQuotes.repository.MovieRepository" target="org.springframework.data.jpa.repository.JpaRepository" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.Repository" target="org.springframework.stereotype.Indexed" relationship="ANNOTATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.NoRepositoryBean" relationship="ANNOTATION">
+      <point x="73.5" y="-15.5" />
+      <point x="489.5" y="219.0" />
+      <point x="487.75" y="219.0" />
+      <point x="487.75" y="137.0" />
+      <point x="509.6190476190476" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.Repository" relationship="INTERFACE_GENERALIZATION">
+      <point x="-51.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="299.0" y="220.0" />
+  <SelectedNodes>
+    <node>pt.ua.deti.ies.lab3.ex3.MovieQuotes.repository.MovieRepository</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

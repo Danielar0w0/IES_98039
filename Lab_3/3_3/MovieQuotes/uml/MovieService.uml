@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pt.ua.deti.ies.lab3.ex3.MovieQuotes.service.MovieService</OriginalElement>
+  <nodes>
+    <node x="20.5" y="0.0">org.springframework.stereotype.Service</node>
+    <node x="0.0" y="81.0">pt.ua.deti.ies.lab3.ex3.MovieQuotes.service.MovieService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pt.ua.deti.ies.lab3.ex3.MovieQuotes.service.MovieService" target="org.springframework.stereotype.Service" relationship="ANNOTATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="70.0" y="56.0" />
+  <SelectedNodes>
+    <node>pt.ua.deti.ies.lab3.ex3.MovieQuotes.service.MovieService</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

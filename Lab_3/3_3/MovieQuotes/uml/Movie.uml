@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pt.ua.deti.ies.lab3.ex3.MovieQuotes.entity.Movie</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">javax.persistence.Entity</node>
+    <node x="109.0" y="0.0">javax.persistence.Table</node>
+    <node x="213.5" y="81.0">pt.ua.deti.ies.lab3.ex3.MovieQuotes.entity.Movie</node>
+    <node x="218.0" y="0.0">lombok.Data</node>
+    <node x="322.0" y="0.0">lombok.AllArgsConstructor</node>
+    <node x="518.0" y="0.0">lombok.NoArgsConstructor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pt.ua.deti.ies.lab3.ex3.MovieQuotes.entity.Movie" target="lombok.AllArgsConstructor" relationship="ANNOTATION">
+      <point x="18.600000000000023" y="-15.5" />
+      <point x="278.6" y="51.0" />
+      <point x="410.0" y="51.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pt.ua.deti.ies.lab3.ex3.MovieQuotes.entity.Movie" target="javax.persistence.Entity" relationship="ANNOTATION">
+      <point x="-37.19999999999999" y="-15.5" />
+      <point x="222.8" y="61.0" />
+      <point x="44.5" y="61.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pt.ua.deti.ies.lab3.ex3.MovieQuotes.entity.Movie" target="lombok.NoArgsConstructor" relationship="ANNOTATION">
+      <point x="37.19999999999999" y="-15.5" />
+      <point x="297.2" y="61.0" />
+      <point x="607.0" y="61.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pt.ua.deti.ies.lab3.ex3.MovieQuotes.entity.Movie" target="javax.persistence.Table" relationship="ANNOTATION">
+      <point x="-18.600000000000023" y="-15.5" />
+      <point x="241.39999999999998" y="51.0" />
+      <point x="153.5" y="51.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pt.ua.deti.ies.lab3.ex3.MovieQuotes.entity.Movie" target="lombok.Data" relationship="ANNOTATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="348.0" y="56.0" />
+  <SelectedNodes>
+    <node>pt.ua.deti.ies.lab3.ex3.MovieQuotes.entity.Movie</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
